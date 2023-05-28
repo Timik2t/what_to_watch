@@ -69,8 +69,6 @@ pip install -r requirements.txt
 flask run
 ```
 
-___
-
 ### Автор
 
 [Исхаков Тимур](https://github.com/Timik2t "GitHub аккаунт")
