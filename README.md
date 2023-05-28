@@ -33,6 +33,7 @@ ___
 
 ```
 git clone git@github.com:Timik2t/what_to_watch.git
+```
 
 ```
 cd what_to_watch
