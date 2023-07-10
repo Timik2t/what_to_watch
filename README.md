@@ -22,53 +22,45 @@ ___
 
 ## Технологии
 
-Python
+Python 3.9
 
-Flask
+Flask 2.0
 ___
 
-### Как запустить проект:
+## Подготовка и запуск проекта
 
-Клонировать репозиторий и перейти в него в командной строке:
+1. Склонируйте репозиторий на локальную машину:
 
-```
-git clone git@github.com:Timik2t/what_to_watch.git
-```
+    ```bash
+    git clone git@github.com:Timik2t/cat_charity_fund.git
+    ```
 
-```
-cd what_to_watch
-```
+2. Создайте и активируйте виртуальное окружение:
 
-Cоздать и активировать виртуальное окружение:
+    ```bash
+    python -m venv venv
+    ```
 
-```
-python3 -m venv venv
-```
+    Активация окружения
+    ```bash
+    # Windows
+    source venv/Scripts/activate
+    ```
+    ```bash
+    # Linux
+    source venv/bin/activate
+    ```
+3. Установите зависимости:
 
-```
-source venv/bin/activate
-```
-или для пользователей Windows
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-```
-source env/Scripts/activate
-```
+3. Запустите проект:
 
-Установить зависимости из файла requirements.txt:
-
-```
-python3 -m pip install --upgrade pip
-```
-
-```
-pip install -r requirements.txt
-```
-
-Запустить проект:
-
-```
-flask run
-```
+    ```bash
+    flask run
+    ```
 
 ### Автор
 
